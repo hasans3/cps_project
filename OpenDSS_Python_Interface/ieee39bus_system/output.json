@@ -1,0 +1,803 @@
+{
+     "sources": [
+          {
+               "name": "V10",
+               "MVA": 250,
+               "R1": 1e-7,
+               "X1": 1e-7,
+               "phases": 3,
+               "basekv": 22,
+               "conbus": "Bus30"
+          },
+          {
+               "name": "V1",
+               "MVA": 1000,
+               "R1": 1e-7,
+               "X1": 1e-7,
+               "phases": 3,
+               "basekv": 22,
+               "conbus": "Bus39"
+          },
+          {
+               "name": "V2",
+               "MVA": 250,
+               "R1": 1e-7,
+               "X1": 1e-7,
+               "phases": 3,
+               "basekv": 22,
+               "conbus": "Bus31"
+          },
+          {
+               "name": "V8",
+               "MVA": 540,
+               "R1": 1e-7,
+               "X1": 1e-7,
+               "phases": 3,
+               "basekv": 22,
+               "conbus": "Bus37"
+          },
+          {
+               "name": "V3",
+               "MVA": 650,
+               "R1": 1e-7,
+               "X1": 1e-7,
+               "phases": 3,
+               "basekv": 22,
+               "conbus": "Bus32"
+          },
+          {
+               "name": "V9",
+               "MVA": 830,
+               "R1": 1e-7,
+               "X1": 1e-7,
+               "phases": 3,
+               "basekv": 22,
+               "conbus": "Bus38"
+          },
+          {
+               "name": "V5",
+               "MVA": 508,
+               "R1": 1e-7,
+               "X1": 1e-7,
+               "phases": 3,
+               "basekv": 22,
+               "conbus": "Bus34"
+          },
+          {
+               "name": "V4",
+               "MVA": 632,
+               "R1": 1e-7,
+               "X1": 1e-7,
+               "phases": 3,
+               "basekv": 22,
+               "conbus": "Bus33"
+          },
+          {
+               "name": "V6",
+               "MVA": 650,
+               "R1": 1e-7,
+               "X1": 1e-7,
+               "phases": 3,
+               "basekv": 22,
+               "conbus": "Bus35"
+          },
+          {
+               "name": "V7",
+               "MVA": 560,
+               "R1": 1e-7,
+               "X1": 1e-7,
+               "phases": 3,
+               "basekv": 22,
+               "conbus": "Bus36"
+          }
+     ],
+     "lines": [
+          {
+               "name": "tl87",
+               "C0": 1.69e-7,
+               "C1": 6.79e-8,
+               "R1": 0.007,
+               "R0": 0.019,
+               "X0": 0.219,
+               "X1": 0.087,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus7",
+               "dstbus": "Bus8"
+          },
+          {
+               "name": "tl139",
+               "C0": 0.00000163,
+               "C1": 6.53e-7,
+               "R1": 0.019,
+               "R0": 0.047,
+               "X0": 1.19,
+               "X1": 0.476,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus7",
+               "dstbus": "Bus39"
+          },
+          {
+               "name": "tl12",
+               "C0": 0.0000015,
+               "C1": 6.1e-7,
+               "R1": 0.066,
+               "R0": 0.166,
+               "X0": 1.95,
+               "X1": 0.78,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus7",
+               "dstbus": "Bus2"
+          },
+          {
+               "name": "tl939",
+               "C0": 0.00000261,
+               "C1": 0.00000104,
+               "R1": 0.019,
+               "R0": 0.047,
+               "X0": 1.19,
+               "X1": 0.476,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus7",
+               "dstbus": "Bus9"
+          },
+          {
+               "name": "tl89",
+               "C0": 8.28e-7,
+               "C1": 3.31e-7,
+               "R1": 0.043,
+               "R0": 0.109,
+               "X0": 1.728,
+               "X1": 0.691,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus8",
+               "dstbus": "Bus9"
+          },
+          {
+               "name": "tl58",
+               "C0": 3.21e-7,
+               "C1": 1.28e-7,
+               "R1": 0.015,
+               "R0": 0.038,
+               "X0": 0.533,
+               "X1": 0.213,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus8",
+               "dstbus": "Bus5"
+          },
+          {
+               "name": "tl67",
+               "C0": 2.46e-7,
+               "C1": 9.84e-8,
+               "R1": 0.011,
+               "R0": 0.028,
+               "X0": 0.438,
+               "X1": 0.175,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus8",
+               "dstbus": "Bus6"
+          },
+          {
+               "name": "tl65",
+               "C0": 9.45e-8,
+               "C1": 3.78e-8,
+               "R1": 0.003,
+               "R0": 0.009,
+               "X0": 0.123,
+               "X1": 0.049,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus6",
+               "dstbus": "Bus5"
+          },
+          {
+               "name": "tl54",
+               "C0": 2.92e-7,
+               "C1": 1.16e-7,
+               "R1": 0.015,
+               "R0": 0.038,
+               "X0": 0.61,
+               "X1": 0.243,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus4",
+               "dstbus": "Bus5"
+          },
+          {
+               "name": "tl34",
+               "C0": 4.82e-7,
+               "C1": 1.92e-7,
+               "R1": 0.024,
+               "R0": 0.061,
+               "X0": 1.01,
+               "X1": 0.405,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus4",
+               "dstbus": "Bus3"
+          },
+          {
+               "name": "tl23",
+               "C0": 5.6e-7,
+               "C1": 2.24e-7,
+               "R1": 0.024,
+               "R0": 0.061,
+               "X0": 0.718,
+               "X1": 0.287,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus4",
+               "dstbus": "Bus2"
+          },
+          {
+               "name": "tl225",
+               "C0": 3.17e-7,
+               "C1": 1.27e-7,
+               "R1": 0.133,
+               "R0": 0.33,
+               "X0": 0.41,
+               "X1": 0.163,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus25",
+               "dstbus": "Bus2"
+          },
+          {
+               "name": "tl2526",
+               "C0": 0.00000112,
+               "C1": 4.46e-7,
+               "R1": 0.061,
+               "R0": 0.152,
+               "X0": 1.53,
+               "X1": 0.615,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus25",
+               "dstbus": "Bus26"
+          },
+          {
+               "name": "tl318",
+               "C0": 4.65e-7,
+               "C1": 1.86e-7,
+               "R1": 0.021,
+               "R0": 0.052,
+               "X0": 0.633,
+               "X1": 0.253,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus3",
+               "dstbus": "Bus18"
+          },
+          {
+               "name": "tl1817",
+               "C0": 2.87e-7,
+               "C1": 1.14e-7,
+               "R1": 0.013,
+               "R0": 0.033,
+               "X0": 0.39,
+               "X1": 0.156,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus3",
+               "dstbus": "Bus17"
+          },
+          {
+               "name": "tl1727",
+               "C0": 7.002e-7,
+               "C1": 2.801e-7,
+               "R1": 0.024,
+               "R0": 0.061,
+               "X0": 0.823,
+               "X1": 0.329,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus27",
+               "dstbus": "Bus17"
+          },
+          {
+               "name": "tl2726",
+               "C0": 5.21e-7,
+               "C1": 2.1e-7,
+               "R1": 0.026,
+               "R0": 0.067,
+               "X0": 0.699,
+               "X1": 0.279,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus27",
+               "dstbus": "Bus27"
+          },
+          {
+               "name": "tl1617",
+               "C0": 2.92e-7,
+               "C1": 1.16e-7,
+               "R1": 0.013,
+               "R0": 0.033,
+               "X0": 0.423,
+               "X1": 0.169,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus16",
+               "dstbus": "Bus27"
+          },
+          {
+               "name": "tl1516",
+               "C0": 3.72e-7,
+               "C1": 1.48e-7,
+               "R1": 0.017,
+               "R0": 0.042,
+               "X0": 0.447,
+               "X1": 0.179,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus15",
+               "dstbus": "Bus16"
+          },
+          {
+               "name": "tl1415",
+               "C0": 7.96e-7,
+               "C1": 3.18e-7,
+               "R1": 0.034,
+               "R0": 0.085,
+               "X0": 1.033,
+               "X1": 0.413,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus14",
+               "dstbus": "Bus15"
+          },
+          {
+               "name": "tl414",
+               "C0": 3.01e-7,
+               "C1": 1.2e-7,
+               "R1": 0.015,
+               "R0": 0.038,
+               "X0": 0.614,
+               "X1": 0.245,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus4",
+               "dstbus": "Bus14"
+          },
+          {
+               "name": "tl1413",
+               "C0": 3.75e-7,
+               "C1": 1.5e-7,
+               "R1": 0.017,
+               "R0": 0.042,
+               "X0": 0.481,
+               "X1": 0.192,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus14",
+               "dstbus": "Bus13"
+          },
+          {
+               "name": "tl1013",
+               "C0": 1.58e-7,
+               "C1": 6.34e-8,
+               "R1": 0.007,
+               "R0": 0.019,
+               "X0": 0.204,
+               "X1": 0.081,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus14",
+               "dstbus": "Bus10"
+          },
+          {
+               "name": "tl1011",
+               "C0": 1.58e-7,
+               "C1": 6.34e-8,
+               "R1": 0.007,
+               "R0": 0.019,
+               "X0": 0.204,
+               "X1": 0.081,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus11",
+               "dstbus": "Bus10"
+          },
+          {
+               "name": "tl611",
+               "C0": 3.02e-7,
+               "C1": 1.21e-7,
+               "R1": 0.013,
+               "R0": 0.033,
+               "X0": 0.39,
+               "X1": 0.156,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus11",
+               "dstbus": "Bus6"
+          },
+          {
+               "name": "tl2628",
+               "C0": 0.00000169,
+               "C1": 6.79e-7,
+               "R1": 0.081,
+               "R0": 0.204,
+               "X0": 2.25,
+               "X1": 0.902,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus11",
+               "dstbus": "Bus28"
+          },
+          {
+               "name": "tl2829",
+               "C0": 5.42e-7,
+               "C1": 2.16e-7,
+               "R1": 0.026,
+               "R0": 0.067,
+               "X0": 0.718,
+               "X1": 0.287,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus11",
+               "dstbus": "Bus29"
+          },
+          {
+               "name": "tl2629",
+               "C0": 0.00000224,
+               "C1": 8.96e-7,
+               "R1": 0.108,
+               "R0": 0.271,
+               "X0": 2.97,
+               "X1": 1.19,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus26",
+               "dstbus": "Bus29"
+          },
+          {
+               "name": "tl1624",
+               "C0": 1.48e-7,
+               "C1": 5.92e-8,
+               "R1": 0.005,
+               "R0": 0.014,
+               "X0": 0.281,
+               "X1": 0.112,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus26",
+               "dstbus": "Bus24"
+          },
+          {
+               "name": "tl1621",
+               "C0": 5.54e-7,
+               "C1": 2.21e-7,
+               "R1": 0.015,
+               "R0": 0.038,
+               "X0": 0.642,
+               "X1": 0.257,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus16",
+               "dstbus": "Bus21"
+          },
+          {
+               "name": "tl2122",
+               "C0": 5.58e-7,
+               "C1": 2.23e-7,
+               "R1": 0.015,
+               "R0": 0.038,
+               "X0": 0.66,
+               "X1": 0.016,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus21",
+               "dstbus": "Bus22"
+          },
+          {
+               "name": "tl1619",
+               "C0": 6.61e-7,
+               "C1": 2.64e-7,
+               "R1": 0.03,
+               "R0": 0.076,
+               "X0": 0.928,
+               "X1": 0.371,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus21",
+               "dstbus": "Bus19"
+          },
+          {
+               "name": "tl2223",
+               "C0": 4.01e-7,
+               "C1": 1.61e-7,
+               "R1": 0.011,
+               "R0": 0.028,
+               "X0": 0.457,
+               "X1": 0.182,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus22",
+               "dstbus": "Bus23"
+          },
+          {
+               "name": "tl2423",
+               "C0": 7.86e-7,
+               "C1": 3.14e-7,
+               "R1": 0.041,
+               "R0": 0.104,
+               "X0": 1.66,
+               "X1": 0.67,
+               "Length": 10,
+               "Units": "mi",
+               "srcbus": "Bus24",
+               "dstbus": "Bus23"
+          }
+     ],
+     "loads": [
+          {
+               "name": "Load31",
+               "KW": 9200,
+               "KV": 22,
+               "kvar": 4600,
+               "phases": 3,
+               "destbus": "Bus31"
+          },
+          {
+               "name": "Load3",
+               "KW": 322000,
+               "KV": 138,
+               "kvar": 2400,
+               "phases": 3,
+               "destbus": "Bus3"
+          },
+          {
+               "name": "Load21",
+               "KW": 274000,
+               "KV": 138,
+               "kvar": 115000,
+               "phases": 3,
+               "destbus": "Bus21"
+          },
+          {
+               "name": "Load39",
+               "KW": 1104000,
+               "KV": 138,
+               "kvar": 250000,
+               "phases": 3,
+               "destbus": "Bus39"
+          },
+          {
+               "name": "Load8",
+               "KW": 522000,
+               "KV": 138,
+               "kvar": 176000,
+               "phases": 3,
+               "destbus": "Bus8"
+          },
+          {
+               "name": "Load7",
+               "KW": 233800,
+               "KV": 138,
+               "kvar": 84000,
+               "phases": 3,
+               "destbus": "Bus7"
+          },
+          {
+               "name": "Load4",
+               "KW": 500000,
+               "KV": 138,
+               "kvar": 184000,
+               "phases": 3,
+               "destbus": "Bus4"
+          },
+          {
+               "name": "Load25",
+               "KW": 224000,
+               "KV": 138,
+               "kvar": 47200,
+               "phases": 3,
+               "destbus": "Bus25"
+          },
+          {
+               "name": "Load26",
+               "KW": 139000,
+               "KV": 138,
+               "kvar": 17000,
+               "phases": 3,
+               "destbus": "Bus26"
+          },
+          {
+               "name": "Load18",
+               "KW": 158000,
+               "KV": 138,
+               "kvar": 30000,
+               "phases": 3,
+               "destbus": "Bus18"
+          },
+          {
+               "name": "Load27",
+               "KW": 281000,
+               "KV": 138,
+               "kvar": 75500,
+               "phases": 3,
+               "destbus": "Bus27"
+          },
+          {
+               "name": "Load15",
+               "KW": 320000,
+               "KV": 138,
+               "kvar": 153000,
+               "phases": 3,
+               "destbus": "Bus15"
+          },
+          {
+               "name": "Load12",
+               "KW": 7500,
+               "KV": 138,
+               "kvar": 88000,
+               "phases": 3,
+               "destbus": "Bus12"
+          },
+          {
+               "name": "Load29",
+               "KW": 283500,
+               "KV": 138,
+               "kvar": 26900,
+               "phases": 3,
+               "destbus": "Bus29"
+          },
+          {
+               "name": "Load28",
+               "KW": 206000,
+               "KV": 138,
+               "kvar": 27600,
+               "phases": 3,
+               "destbus": "Bus28"
+          },
+          {
+               "name": "Load16",
+               "KW": 329000,
+               "KV": 138,
+               "kvar": 32300,
+               "phases": 3,
+               "destbus": "Bus16"
+          },
+          {
+               "name": "Load24",
+               "KW": 308600,
+               "KV": 138,
+               "kvar": -92000,
+               "phases": 3,
+               "destbus": "Bus24"
+          },
+          {
+               "name": "Load20",
+               "KW": 628000,
+               "KV": 138,
+               "kvar": 103000,
+               "phases": 3,
+               "destbus": "Bus20"
+          },
+          {
+               "name": "Load23",
+               "KW": 247500,
+               "KV": 138,
+               "kvar": 84600,
+               "phases": 3,
+               "destbus": "Bus23"
+          }
+     ],
+     "transformers": [
+          {
+               "name": "t9",
+               "phases": 3,
+               "source_bus": "Bus30",
+               "Dest_name": "Bus2",
+               "XHL": 0.05,
+               "conns": "delta delta",
+               "kvs": "22 138"
+          },
+          {
+               "name": "t3",
+               "phases": 3,
+               "source_bus": "Bus31",
+               "Dest_name": "Bus6",
+               "XHL": 0.05,
+               "conns": "delta delta",
+               "kvs": "22 138"
+          },
+          {
+               "name": "t8",
+               "phases": 3,
+               "source_bus": "Bus37",
+               "Dest_name": "Bus25",
+               "XHL": 0.05,
+               "conns": "delta delta",
+               "kvs": "22 138"
+          },
+          {
+               "name": "t4",
+               "phases": 3,
+               "source_bus": "Bus37",
+               "Dest_name": "Bus32",
+               "XHL": 0.05,
+               "conns": "delta delta ",
+               "kvs": "22 138"
+          },
+          {
+               "name": "t1",
+               "phases": 3,
+               "source_bus": "Bus11",
+               "Dest_name": "Bus12",
+               "XHL": 0.05,
+               "conns": "delta delta",
+               "kvs": "138 33"
+          },
+          {
+               "name": "t2",
+               "phases": 3,
+               "source_bus": "Bus13",
+               "Dest_name": "Bus12",
+               "XHL": 0.05,
+               "conns": "delta delta",
+               "kvs": "33 138"
+          },
+          {
+               "name": "t10",
+               "phases": 3,
+               "source_bus": "Bus38",
+               "Dest_name": "Bus29",
+               "XHL": 0.05,
+               "conns": "delta delta",
+               "kvs": "22 138"
+          },
+          {
+               "name": "t11",
+               "phases": 3,
+               "source_bus": "Bus20",
+               "Dest_name": "Bus19",
+               "XHL": 0.05,
+               "conns": "delta delta",
+               "kvs": "138 138"
+          },
+          {
+               "name": "t5",
+               "phases": 3,
+               "source_bus": "Bus20",
+               "Dest_name": "Bus34",
+               "XHL": 0.05,
+               "conns": "delta delta ",
+               "kvs": "22 138"
+          },
+          {
+               "name": "t5",
+               "phases": 3,
+               "source_bus": "Bus20",
+               "Dest_name": "Bus33",
+               "XHL": 0.05,
+               "conns": "delta delta",
+               "kvs": "22 138"
+          },
+          {
+               "name": "t6",
+               "phases": 3,
+               "source_bus": "Bus35",
+               "Dest_name": "Bus22",
+               "XHL": 0.05,
+               "conns": "delta delta",
+               "kvs": "22 138"
+          },
+          {
+               "name": "t7",
+               "phases": 3,
+               "source_bus": "Bus35",
+               "Dest_name": "Bus36",
+               "XHL": 0.05,
+               "conns": "delta delta",
+               "kvs": "22 138"
+          }
+     ],
+     "faults": []
+}

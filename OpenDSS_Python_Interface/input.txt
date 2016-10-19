@@ -1,0 +1,50 @@
+clear
+New object=circuit.samplename
+//Define Sources
+New vsource.Source3 bus1=Bus3 phases=3 basekv=138 MVA=60 r1=.0000001 x1=.0000001
+New vsource.Source4 bus1=Bus8 phases=3 basekv=138 MVA=25 r1=.0000001 x1=.0000001
+New vsource.Source5 bus1=Bus6 phases=3 basekv=138 MVA=25 r1=.0000001 x1=.0000001
+New vsource.Source1 bus1=Bus1 phases=3 basekv=138 MVA=615 r1=.0000001 x1=0.0000001
+New vsource.Source2 bus1=Bus2 phases=3 basekv=138 MVA=60 r1=.0000001 x1=.0000001
+//Define the lines
+New Line.tl12 bus1=Bus1 bus2=Bus2 R1=3.69 R0=9.22 X1=11.26 X0=28.17 C1=.000000736 C0=.00000184 length=1 units=mi
+New Line.tl1011 bus1=Bus11 bus2=Bus10 R1=15.62 R0=39.06 X1=36.57 X0=91.44 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl1213 bus1=Bus12 bus2=Bus13 R1=42.07 R0=105.18 X1=38.06 X0=95.16 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl25 bus1=Bus2 bus2=Bus5 R1=10.84 R0=27.11 X1=33.11 X0=82.78 C1=.000000482 C0=.00000121 length=1 units=mi
+New Line.tl34 bus1=Bus4 bus2=Bus3 R1=12.76 R0=31.90 X1=32.57 X0=81.42 C1=.000000178 C0=.00000446 length=1 units=mi
+New Line.tl24 bus1=Bus2 bus2=Bus4 R1=11.06 R0=27.66 X1=33.57 X0=83.94 C1=.000000474 C0=.00000118 length=1 units=mi
+New Line.tl47 bus1=Bus4 bus2=Bus7 R1=.0000001 R0=.0000001 X1=39.82 X0=99.56 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl15 bus1=Bus1 bus2=Bus5 R1=10.28 R0=25.72 X1=42.47 X0=106.18 C1=.000000686 C0=.00000171 length=1 units=mi
+New Line.tl914 bus1=Bus14 bus2=Bus9 R1=24.20 R0=60.51 X1=51.49 X0=128.72 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl49 bus1=Bus4 bus2=Bus9 R1=0.0000001 R0=0.0000001 X1=105.91 X0=264.79 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl612 bus1=Bus12 bus2=Bus6 R1=23.40 R0=58.51 X1=48.71 X0=121.79 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl23 bus1=Bus2 bus2=Bus3 R1=8.94 R0=22.37 X1=37.70 X0=94.25 C1=.00000061 C0=.00000153 length=1 units=mi
+New Line.tl1314 bus1=Bus13 bus2=Bus14 R1=32.55 R0=81.37 X1=66.27 X0=165.69 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl910 bus1=Bus10 bus2=Bus9 R1=6.05 R0=15.14 X1=16.09 X0=40.23 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl611 bus1=Bus10 bus2=Bus6 R1=18.08 R0=45.21 X1=37.87 X0=94.69 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl79 bus1=Bus9 bus2=Bus7 R1=0.0000001 R0=0.0000001 X1=20.95 X0=52.37 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl78 bus1=Bus7 bus2=Bus8 R1=.0000001 R0=.0000001 X1=33.54 X0=83.86 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl45 bus1=Bus5 bus2=Bus4 R1=2.54 R0=6.35 X1=8.01 X0=20.04 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl56 bus1=Bus5 bus2=Bus6 R1=0.0000001 R0=0.0000001 X1=47.99 X0=119.98 C1=.00000001 C0=.00000001 length=1 units=mi
+New Line.tl613 bus1=Bus13 bus2=Bus6 R1=12.59 R0=31.49 X1=24.80 X0=62.02 C1=.00000001 C0=.00000001 length=1 units=mi
+//Define the loads
+New Load.Load2 bus1=Bus5 phases=3 Kw=7600 Kv=69
+New Load.Load5 bus1=Bus13 phases=3 Kw=13800 Kv=69
+New Load.Load8 bus1=Bus10 phases=3 Kw=9000 Kv=69
+New Load.Load9 bus1=Bus9 phases=3 Kw=16600 Kv=69
+New Load.Load3 bus1=Bus6 phases=3 Kw=11200 Kv=69
+New Load.Load11 bus1=Bus3 phases=3 Kw=94200 Kv=69
+New Load.Load4 bus1=Bus12 phases=3 Kw=6100 Kv=69
+New Load.Load6 bus1=Bus11 phases=3 Kw=3500 Kv=69
+New Load.Load1 bus1=Bus2 phases=3 Kw=21700 Kv=69
+New Load.Load10 bus1=Bus4 phases=3 Kw=47800 Kv=69
+New Load.Load7 bus1=Bus14 phases=3 Kw=14900 Kv=69
+//Define the transformers
+//Define the faults
+//Define the voltagebases
+set voltagebases=[138]
+calcv
+set freq=60
+set mode=snapshot
+solve
+//used for steady state analysis of power systems

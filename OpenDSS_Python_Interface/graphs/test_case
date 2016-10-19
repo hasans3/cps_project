@@ -1,0 +1,5 @@
+ digraph G1 {
+ "[Line.tl56]" -> "Line.tl23";
+ "Line.tl23" -> "Line.tl12";
+ "Line.tl12" -> safe_state;
+}

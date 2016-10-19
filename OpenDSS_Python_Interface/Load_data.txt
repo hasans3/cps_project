@@ -1,0 +1,1 @@
+{'Load.load2': 7600,'Load.load5': 13800,'Load.load8': 9000,'Load.load9': 16600,'Load.load3': 11200,'Load.load11': 94200,'Load.load4': 6100,'Load.load6': 3500,'Load.load1': 21700,'Load.load10': 47800,'Load.load7': 14900}
