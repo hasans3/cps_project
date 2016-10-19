@@ -5,7 +5,7 @@
  *
  * Model version              : 1.60
  * Simulink Coder version : 8.7 (R2014b) 08-Sep-2014
- * C source code generated on : Mon Oct 17 13:24:35 2016
+ * C source code generated on : Tue Oct 18 13:07:59 2016
  *
  * Target selection: grt.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -244,6 +244,14 @@ P_twoarea_system_test_T twoarea_system_test_P = {
   0.999822352380809,
   0.87529577629100175,
   -0.48358794857516113,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
   0.0,
   2.0,
   0.0,

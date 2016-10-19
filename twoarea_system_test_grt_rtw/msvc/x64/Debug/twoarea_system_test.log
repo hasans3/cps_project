@@ -1,0 +1,53 @@
+﻿Build started 10/18/2016 1:13:03 PM.
+     1>Project "G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\twoarea_system_test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\twoarea_system_test.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw" /I"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case" /I"C:\Program Files\MATLAB\R2014b\extern\include" /I"C:\Program Files\MATLAB\R2014b\simulink\include" /I"C:\Program Files\MATLAB\R2014b\rtw\c\src" /I"C:\Program Files\MATLAB\R2014b\rtw\c\src\ext_mode\common" /I"C:\Program Files\MATLAB\R2014b\toolbox\physmod\powersys\facts\facts" /I"C:\Program Files\MATLAB\R2014b\toolbox\physmod\powersys\DR\DR" /Zi /nologo /W2 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D MODEL=twoarea_system_test /D NUMST=1 /D NCSTATES=0 /D HAVESTDIO= /D RT= /D USE_RTMODEL= /D MAT_FILE=1 /D INTEGER_CODE=0 /D MT=0 /D CLASSIC_INTERFACE=0 /D ALLOCATIONFCN=0 /D ONESTEPFCN=1 /D TERMFCN=1 /D MULTI_INSTANCE_CODE=0 /D TID01EQ=0 /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt ..\rtGetInf.c ..\rtGetNaN.c ..\rt_look.c ..\rt_look1d.c ..\rt_nonfinite.c ..\twoarea_system_test.c ..\twoarea_system_test_data.c "C:\Program Files\MATLAB\R2014b\rtw\c\src\common\rt_main.c" "C:\Program Files\MATLAB\R2014b\rtw\c\src\rt_logging.c" /bigobj 
+         rtGetInf.c
+         rtGetNaN.c
+         rt_look.c
+         rt_look1d.c
+         rt_nonfinite.c
+         twoarea_system_test.c
+         twoarea_system_test_data.c
+         rt_main.c
+         rt_logging.c
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\twoarea_system_test.exe.embed.manifest.res" x64\Debug\twoarea_system_test_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\x64\Debug\twoarea_system_test.exe" /VERSION:"1.60" /INCREMENTAL /NOLOGO /LIBPATH:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\x64\Debug" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\twoarea_system_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\x64\Debug\twoarea_system_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\x64\Debug\twoarea_system_test.lib" /MACHINE:X64 x64\Debug\twoarea_system_test.exe.embed.manifest.res
+         x64\Debug\rtGetInf.obj
+         x64\Debug\rtGetNaN.obj
+         x64\Debug\rt_look.obj
+         x64\Debug\rt_look1d.obj
+         x64\Debug\rt_nonfinite.obj
+         x64\Debug\twoarea_system_test.obj
+         x64\Debug\twoarea_system_test_data.obj
+         x64\Debug\rt_main.obj
+         x64\Debug\rt_logging.obj
+         twoarea_system_test.vcxproj -> G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\x64\Debug\twoarea_system_test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\twoarea_system_test.exe.embed.manifest" /manifest x64\Debug\twoarea_system_test.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\twoarea_system_test.exe.embed.manifest.res" x64\Debug\twoarea_system_test_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\x64\Debug\twoarea_system_test.exe" /VERSION:"1.60" /INCREMENTAL /NOLOGO /LIBPATH:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\x64\Debug" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\twoarea_system_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\x64\Debug\twoarea_system_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\x64\Debug\twoarea_system_test.lib" /MACHINE:X64 x64\Debug\twoarea_system_test.exe.embed.manifest.res
+         x64\Debug\rtGetInf.obj
+         x64\Debug\rtGetNaN.obj
+         x64\Debug\rt_look.obj
+         x64\Debug\rt_look1d.obj
+         x64\Debug\rt_nonfinite.obj
+         x64\Debug\twoarea_system_test.obj
+         x64\Debug\twoarea_system_test_data.obj
+         x64\Debug\rt_main.obj
+         x64\Debug\rt_logging.obj
+         twoarea_system_test.vcxproj -> G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\x64\Debug\twoarea_system_test.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\twoarea_system_test.unsuccessfulbuild".
+         Touching "x64\Debug\twoarea_system_test.lastbuildstate".
+     1>Done Building Project "G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\twoarea_system_test_grt_rtw\msvc\twoarea_system_test.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:30.32

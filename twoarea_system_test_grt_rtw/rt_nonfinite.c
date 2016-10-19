@@ -5,7 +5,7 @@
  *
  * Model version              : 1.60
  * Simulink Coder version : 8.7 (R2014b) 08-Sep-2014
- * C source code generated on : Mon Oct 17 13:24:35 2016
+ * C source code generated on : Tue Oct 18 13:07:59 2016
  *
  * Target selection: grt.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -18,7 +18,6 @@
  *      Function to intialize non-finites,
  *      (Inf, NaN and -Inf).
  */
-
 #include "rt_nonfinite.h"
 #include "rtGetNaN.h"
 #include "rtGetInf.h"
