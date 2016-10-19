@@ -1,0 +1,47 @@
+﻿Build started 10/18/2016 4:13:32 PM.
+     1>Project "G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\model1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\model1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw" /I"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case" /I"G:\saqib\openDSS-Matlab Comparison" /I"C:\Program Files\MATLAB\R2014b\extern\include" /I"C:\Program Files\MATLAB\R2014b\simulink\include" /I"C:\Program Files\MATLAB\R2014b\rtw\c\src" /I"C:\Program Files\MATLAB\R2014b\rtw\c\src\ext_mode\common" /Zi /nologo /W2 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D MODEL=model1 /D NUMST=1 /D NCSTATES=0 /D HAVESTDIO= /D RT= /D USE_RTMODEL= /D MAT_FILE=1 /D INTEGER_CODE=0 /D MT=0 /D CLASSIC_INTERFACE=0 /D ALLOCATIONFCN=0 /D ONESTEPFCN=1 /D TERMFCN=1 /D MULTI_INSTANCE_CODE=0 /D TID01EQ=0 /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt ..\model1.c ..\model1_data.c ..\rtGetInf.c ..\rtGetNaN.c ..\rt_nonfinite.c "C:\Program Files\MATLAB\R2014b\rtw\c\src\common\rt_main.c" "C:\Program Files\MATLAB\R2014b\rtw\c\src\rt_logging.c"
+         model1.c
+         model1_data.c
+         rtGetInf.c
+         rtGetNaN.c
+         rt_nonfinite.c
+         rt_main.c
+         rt_logging.c
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\model1.exe.embed.manifest.res" x64\Debug\model1_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\x64\Debug\model1.exe" /VERSION:"1.191" /INCREMENTAL /NOLOGO /LIBPATH:"G:\saqib\openDSS-Matlab Comparison" /LIBPATH:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\x64\Debug" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\model1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\x64\Debug\model1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\x64\Debug\model1.lib" /MACHINE:X64 x64\Debug\model1.exe.embed.manifest.res
+         x64\Debug\model1.obj
+         x64\Debug\model1_data.obj
+         x64\Debug\rtGetInf.obj
+         x64\Debug\rtGetNaN.obj
+         x64\Debug\rt_nonfinite.obj
+         x64\Debug\rt_main.obj
+         x64\Debug\rt_logging.obj
+         model1.vcxproj -> G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\x64\Debug\model1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\model1.exe.embed.manifest" /manifest x64\Debug\model1.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\model1.exe.embed.manifest.res" x64\Debug\model1_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\x64\Debug\model1.exe" /VERSION:"1.191" /INCREMENTAL /NOLOGO /LIBPATH:"G:\saqib\openDSS-Matlab Comparison" /LIBPATH:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\x64\Debug" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\model1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\x64\Debug\model1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\x64\Debug\model1.lib" /MACHINE:X64 x64\Debug\model1.exe.embed.manifest.res
+         x64\Debug\model1.obj
+         x64\Debug\model1_data.obj
+         x64\Debug\rtGetInf.obj
+         x64\Debug\rtGetNaN.obj
+         x64\Debug\rt_nonfinite.obj
+         x64\Debug\rt_main.obj
+         x64\Debug\rt_logging.obj
+         model1.vcxproj -> G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\x64\Debug\model1.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\model1.unsuccessfulbuild".
+         Touching "x64\Debug\model1.lastbuildstate".
+     1>Done Building Project "G:\saqib\cpsproject\ICSEG Power Case 8 - Two-Area Case\model1_grt_rtw\msvc\model1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.44
